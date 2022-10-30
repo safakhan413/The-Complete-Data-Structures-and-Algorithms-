@@ -12,8 +12,8 @@ def firstSecond(givenList):
             max2 = max1
             max1 = givenList[i]
             
-        return max1,max2
+    return max1,max2
 
         
 myList = [84,85,86,87,85,90,85,83,23,45,84,1,2,0]
-firstSecond(myList) # 90 87
+print(firstSecond(myList)) # 90 87
