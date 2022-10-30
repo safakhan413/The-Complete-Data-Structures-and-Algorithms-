@@ -17,3 +17,9 @@ def firstSecond(givenList):
         
 myList = [84,85,86,87,85,90,85,83,23,45,84,1,2,0]
 print(firstSecond(myList)) # 90 87
+
+def missingNumber(myList, totalCount):
+    sum1 = 6*7/2
+    sum2 = sum(myList)
+    return sum1 - sum2
+    # TODO
